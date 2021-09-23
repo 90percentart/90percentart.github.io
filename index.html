@@ -4,9 +4,9 @@
 
 <body>
 
-<center>
+    <center>
 
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" width="500px" height="500px" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 149.09 143.22" style="enable-background:new 0 0 149.09 143.22;" xml:space="preserve">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" width="500px" height="500px" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 149.09 143.22" style="enable-background:new 0 0 149.09 143.22;" xml:space="preserve">
 <g>
 	<path d="M97.88,78.74c1.54-2.77,3.82-4.59,6.83-5.44c3.09-0.88,6-0.54,8.73,1.01c2.77,1.54,4.59,3.84,5.46,6.89
 		c0.87,3.05,0.53,5.96-1.01,8.73c-1.51,2.76-3.78,4.58-6.83,5.44c-3.09,0.88-6.02,0.55-8.79-1c-2.73-1.55-4.55-3.89-5.44-7.02
@@ -25,14 +25,13 @@
 
 </svg>
 
-<p style="font-size:30px;"> (click things) </p>
-<p style="font-size:30px;"> <a href="http://www.instagram.com/90percentart"> Instagram </a> | <a href="https://www.etsy.com/shop/90percentart"> Etsy </a> | <a href="https://twitter.com/90percentart"> Twitter </a> </p>
-<p style="font-size:30px;"> ARTPROOFS - coming soon! </p>
+        <p style="font-size:28px;"> (click things) </p>
+        <p style="font-size:28px;"> <a href="http://www.instagram.com/90percentart"> Instagram </a> | <a href="https://www.etsy.com/shop/90percentart"> Etsy </a> | <a href="https://twitter.com/90percentart"> Twitter </a> </p>
+        <p style="font-size:28px;"> ARTPROOFS - coming soon! </p>
 
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px" height="500px"
-	 viewBox="0 0 1020 768" style="enable-background:new 0 0 1020 768;" xml:space="preserve">
+        <?xml version="1.0" encoding="utf-8"?>
+        <!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px" height="500px" viewBox="0 0 1020 768" style="enable-background:new 0 0 1020 768;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#EAFFAA;}
 	.st1{fill:#201D22;}
@@ -4428,17 +4427,15 @@
 </g>
 </svg>
 
-<script>
+        <script>
+            var allStates = $("path, polygon")
 
-var allStates = $("path, polygon")
+            allStates.on("click", function() {
 
-allStates.on("click", function(){
+                var colors = ['#8ad5e6', '#b0efd1', '#f0dec9', '#fab8ca', '#ff8ca4'];
+                var random_color = colors[Math.floor(Math.random() * colors.length)];
 
-	var colors = ['#8ad5e6', '#b0efd1', '#f0dec9', '#fab8ca', '#ff8ca4'];
-	var random_color = colors[Math.floor(Math.random() * colors.length)];
+                $(this)[0].style.fill = random_color
 
-	$(this)[0].style.fill = random_color
-
-});
-
-</script>
+            });
+        </script>

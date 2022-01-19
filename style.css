@@ -1,14 +1,13 @@
-/*html,body {
-    width: 100vw;
+html,body {
     height:  100vh;
     margin: 0px;
     padding: 0px;
 }
-*/
-object{
-	border:  0px;
-	margin: -20px;
-	margin-bottom: 0px;
+
+svg{
+	width: 100%;
+	max-width: 500px;
+	height: auto;
 }
 
 .btn {
@@ -38,6 +37,6 @@ object{
 }
 
 #my-store-64694392{
-	padding-right: 25% !important;
-	padding-left:  25% !important;
+	padding-right: 20% !important;
+	padding-left:  20% !important;
 }

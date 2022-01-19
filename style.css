@@ -1,11 +1,10 @@
-html,body {
-    /*width: 100vw;*/
+/*html,body {
+    width: 100vw;
     height:  100vh;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
 }
-
+*/
 object{
 	border:  0px;
 	margin: -20px;

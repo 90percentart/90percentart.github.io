@@ -1,3 +1,17 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+object{
+	border:  0px;
+	margin: -20px;
+	margin-bottom: 0px;
+}
+
 .btn {
     font-size: 25px;
 	border-radius: 10px;
@@ -7,20 +21,17 @@
     margin: 5px;
     padding: 8px;
 }
+
 .btn:hover{
     background-color: black;
     border-color: black;
     color: white;
 }
+
 .btn:active, .btn:focus{
     background-color: #8ad5e6 !important;
     border-color: #8ad5e6 !important;
     color: white !important;
-}
-object{
-	border:  0px;
-	margin: -20px;
-	margin-bottom: 0px;
 }
 
 .logo{

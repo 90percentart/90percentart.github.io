@@ -4,12 +4,6 @@ html,body {
     padding: 0px;
 }
 
-svg{
-	width: 100%;
-	max-width: 500px;
-	height: auto;
-}
-
 .btn {
     font-size: 25px;
 	border-radius: 10px;
@@ -43,4 +37,10 @@ svg{
 
 #buttons{
 	width: 100%;
+}
+
+#mysvg{
+	width: 100%;
+	max-width: 500px;
+	height: auto;
 }
